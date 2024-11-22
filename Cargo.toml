@@ -1,0 +1,18 @@
+[package]
+name = "hu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luca Cavallin (https://github.com/lucavallin)"]
+description = "A CLI to control Philips Hue lights."
+license = "MIT"
+repository = "https://github.com/lucavallin/hu"
+homepage = "https://lucavall.in/"
+
+
+[dependencies]
+anyhow = "1.0.93"
+clap = { version = "4.5.21", features = ["derive"] }
+config = "0.14.1"
+hue-rs = { version = "2.0.1" }
+serde = { version = "1.0.215", features = ["derive"] }
+tokio = { version = "1.41.1", features = ["full"] }
