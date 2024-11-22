@@ -1,2 +1,5 @@
 [bridge]
 ip = "192.168.2.1"
+
+[auth]
+devicetype = "hu"
